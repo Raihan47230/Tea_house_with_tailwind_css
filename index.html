@@ -4,6 +4,7 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Document</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
      <script src="https://cdn.tailwindcss.com"></script>
      <script>
           tailwind.config = {
@@ -23,11 +24,12 @@
                <div>
                     <nav class="flex justify-between items-center">
                          <div class="font-bold text-5xl bg-gradient-to-r from-blue-300 to-purple-600 bg-clip-text text-transparent">Tea House</div>
-                         <ul class="flex gap-7 font-bold text-base">
+                         <ul class=" hidden md:flex gap-7 font-bold text-base ">
                               <li>Home</li>
                               <li>About</li>
                               <li>Contact Us</li>
                          </ul>
+                         <i class="fa-solid fa-bars md:hidden"></i>
                     </nav>
                </div>
           </section>
@@ -62,7 +64,7 @@
               <div class="grid grid-cols-1 gap-5 ml-28 mt-11 md:grid-cols-2  lg:grid-cols-4">
 
                <div class=" flex flex-col justify-center items-center text-center w-60 rounded-md bg-slate-200 px-4 py-2 mb-4 shadow-xl">
-                    <img src="images/tea-1.png" alt="">
+                    <img class="mx-auto" src="images/tea-1.png" alt="">
                    <div>
                     <h3 class="text-xl font-bold">Milk Tea</h3>
                     <p>Creamer could be replaced <br> by fresh milk</p>
@@ -98,10 +100,10 @@
                     <div class="grid grid-cols-2 grid-rows-3 gap-5">
                          <div class="bg-red-300 h-40  rounded-md"></div>
                          <div class=" bg-red-100 py-5 row-span-2 rounded-lg">
-                              <img class=" " src="images/fresh-1.png" alt="">
+                              <img class="mx-auto " src="images/fresh-1.png" alt="">
                          </div>
                          <div class=" bg-red-100 py-5 row-span-2 rounded-lg">
-                              <img class=" " src="images/fresh-2.png" alt="">
+                              <img class="mx-auto " src="images/fresh-2.png" alt="">
                          </div>
                          <div class="bg-red-300 h-40  rounded-md"></div>
                         
@@ -157,27 +159,27 @@
                     <h2 class="text-5xl font-bold bg-gradient-to-r from-amber-300 to-red-600 bg-clip-text text-transparent">
                          News & Events
                     </h2><br>
-                    <p class="font-bold">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable. </p>
+                    <p class="font-bold text-gray-400">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable. </p>
                </div>
                <div class="lg:flex justify-between px-10 py-7  ">
                     <div class="bg-whitepx-10 px-10 py-7 rounded-lg shadow-2xl mt-5">
                          <img src="images/news-1.png" alt=""><br>
                          <p class="text-xs">Feb 05, 2027</p> 
-                         <p>Collecting 8 points  for <br> discount</p>
+                         <p class="text-2xl font-bold"> Collecting 8 points  for <br> discount</p>
                          <p>There are many variations of passages of <br> Lorem Ipsum available.</p>
                          <br><p>Learn More</p>
                     </div>
                     <div class="bg-white px-10 py-7 rounded-lg shadow-2xl  mt-5">
-                         <img src="images/news-1.png" alt=""><br>
+                         <img src="images/news-2.png" alt=""><br>
                          <p class="text-xs">Feb 05, 2027</p>
-                         <p>Collecting 8 points  for <br> discount</p>
+                         <p class="text-2xl font-bold">Collecting 8 points  for <br> discount</p>
                          <p>There are many variations of passages of <br> Lorem Ipsum available.</p>
                          <br><p>Learn More</p>
                     </div>
                     <div class="bg-white px-10 py-7 rounded-lg shadow-2xl  mt-5">
-                         <img src="images/news-1.png" alt=""><br>
+                         <img src="images/news-3.png" alt=""><br>
                          <p class="text-xs">Feb 05, 2027</p>
-                         <p>Collecting 8 points  for <br> discount</p>
+                         <p class="text-2xl font-bold">Collecting 8 points  for <br> discount</p>
                          <p>There are many variations of passages of <br> Lorem Ipsum available.</p>
                          <br><p>Learn More</p>
                     </div>
